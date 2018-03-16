@@ -28,5 +28,8 @@
   },
   "scripts": {
     "test": "node-gyp rebuild && mocha test"
-  }
+  },
+  "os": [
+   "!win32" 
+  ]
 }
